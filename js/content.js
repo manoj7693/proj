@@ -30,6 +30,7 @@ var songs = [
 		playsubname: 'Born To Die',
 		playsongtime: '04:24',
 		link: songdir + 'sumsad.mp3'
+		
 	},
 	{
 		id: 4,
@@ -60,7 +61,16 @@ var songs = [
 		playsubname: 'One Direction',
 		playsongtime: '03:36',
 		link: songdir + 'upallnight.mp3'
-	}
+		
+	},
+	id: 6,
+		mainscover: imgdir + 'mainbg6.png',
+		mainsimg: imgdir + 'mains6.png',
+		smallimg: imgdir + 'small6.png',
+		playsongtitle: 'She',
+		playsubname: 'harry',
+		playsongtime: '06:05',
+		link: songdir + 'upallnight.mp3'
 ];
 var template = Handlebars.compile( $("#template").html() );
 $("#playlist ul").append( template(songs) );
