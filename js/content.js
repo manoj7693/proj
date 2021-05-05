@@ -63,7 +63,7 @@ var songs = [
 		link: songdir + 'upallnight.mp3'
 		
 	},
-	id: 6,
+	        id: 7,
 		mainscover: imgdir + 'mainbg6.png',
 		mainsimg: imgdir + 'mains6.png',
 		smallimg: imgdir + 'small6.png',
